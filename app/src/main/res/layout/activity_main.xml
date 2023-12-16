@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+      <HorizontalScrollView
+          android:layout_width="match_parent"
+          android:background="@color/Awesome"
+          android:layout_gravity="center"
+          android:layout_height="wrap_content">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="horizontal">
+              <androidx.appcompat.widget.AppCompatButton
+                  android:id="@+id/AllNews"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:layout_margin="5dp"
+                  android:onClick="ButtonClickListener"
+                  android:text="All News"
+                  android:backgroundTint="#6CBC26"
+                  android:background="@drawable/shape"
+                  android:textColor="@color/white"
+                  android:textSize="15dp"
+                   />
+              <androidx.appcompat.widget.AppCompatButton
+                  android:id="@+id/india"
+                  android:layout_margin="5dp"
+                  android:onClick="ButtonClickListener"
+                  android:layout_width="wrap_content"
+                  android:padding="5dp"
+                  android:textColor="@color/white"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/shape"
+                  android:text="Indian News"
+                  android:textSize="15dp"
+                  android:backgroundTint="#2EACE7"/>
+              <androidx.appcompat.widget.AppCompatButton
+                  android:id="@+id/global_top_headlines"
+                  android:layout_margin="5dp"
+                  android:layout_width="wrap_content"
+                  android:onClick="ButtonClickListener"
+                  android:padding="5dp"
+                  android:textColor="@color/white"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/shape"
+                  android:text="Global Headlines"
+                  android:textSize="15dp"
+                  android:backgroundTint="#7C5CCB"/>
+              <androidx.appcompat.widget.AppCompatButton
+                  android:id="@+id/indian_top_headlines"
+                  android:layout_margin="5dp"
+                  android:layout_width="wrap_content"
+                  android:onClick="ButtonClickListener"
+                  android:padding="5dp"
+                  android:textColor="@color/white"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/shape"
+                  android:text="Indian Headlines"
+                  android:textSize="15dp"
+                  android:backgroundTint="#1A998A"/>
+              <androidx.appcompat.widget.AppCompatButton
+                  android:id="@+id/technology"
+                  android:layout_width="wrap_content"
+                  android:layout_margin="5dp"
+                  android:backgroundTint="#E6DF28"
+                  android:padding="5dp"
+                  android:onClick="ButtonClickListener"
+                  android:layout_height="wrap_content"
+                  android:text="Technology"
+                  android:textColor="@color/white"
+                  android:textSize="15dp"
+                  android:background="@drawable/shape"/>
+              <androidx.appcompat.widget.AppCompatButton
+                  android:id="@+id/gaming"
+                  android:layout_margin="5dp"
+                  android:padding="5dp"
+                  android:background="@drawable/shape"
+                  android:onClick="ButtonClickListener"
+                  android:textColor="@color/white"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Gaming"
+                  android:textSize="15dp"
+                  android:backgroundTint="#CC7FED"/>
+              <androidx.appcompat.widget.AppCompatButton
+                  android:id="@+id/sports"
+                  android:layout_margin="5dp"
+                  android:layout_width="wrap_content"
+                  android:onClick="ButtonClickListener"
+                  android:padding="5dp"
+                  android:textColor="@color/white"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/shape"
+                  android:text="Sports"
+                  android:textSize="15dp"
+                  android:backgroundTint="#2EACE7"/>
+          </LinearLayout>
+
+      </HorizontalScrollView>
+
+   <ListView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/list_view"/>
+</LinearLayout>

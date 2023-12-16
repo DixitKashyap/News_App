@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Awesome">#ff2052</color>
+    <color name="mist">#f0ffff</color>
+    <color name="baby_blue">#89cff0</color>
+    <color name="ball_blue">#21abcd</color>
+    <color name="Boston_University_Red">#cc0000</color>
+    <color name="Bright_Maroon">#c32148</color>
+    <color name="Bright_Lavender">#bf94e4</color>
+    <color name="Cadmium_Red">#e30022</color>
+    <color name="Cadmium_Yellow">#fff600</color>
+</resources>
